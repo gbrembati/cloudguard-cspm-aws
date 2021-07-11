@@ -24,4 +24,4 @@ From the Stack output copy the Role ARN:
 ![AWS Stack Output](/zimages/aws-role-arn.jpg)
 
 Then copy it in the onboarding procedure, with the name of the account and conclude the onboarding:
-![AWS Complete Onboarding](/zimages/aws-complete.jpg)
+![AWS Complete Onboarding](/zimages/aws-completed.jpg)
