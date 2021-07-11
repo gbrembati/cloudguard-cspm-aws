@@ -105,7 +105,7 @@
         }
       }
     },
-    "CloudGuardReadWrite": {
+    "ReadWritePolicy": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
         "Roles": [
@@ -141,7 +141,7 @@
   "Parameters": {
     "Externalid": {
       "Type": "String",
-      "Description": "Enter Dome9 External ID"
+      "Description": "Enter CloudGuard External ID"
     }
   },
   "Outputs": {
