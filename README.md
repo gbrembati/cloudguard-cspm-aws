@@ -16,8 +16,8 @@ You would need to give as parameter the External ID, that can be obtained during
 ## How to launch the template
 Either copy the JSON file and then uploaded to a newly created stack or launch the CloudFormation Templates directly.     
 These are the link to directly launch them in your AWS Account:
-1. Template with Read-Only Permission: [Launch R/O Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://s3-cloudguard-onboarding.s3.eu-west-1.amazonaws.com/stack/cft-readonly.json)
-2. Template with Read-Write Permission: [Launch R/W Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://s3-cloudguard-onboarding.s3.eu-west-1.amazonaws.com/stack/cft-readwrite.json)
+1. Template with Read-Only Permission: [Launch R/O Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readonly.json)
+2. Template with Read-Write Permission: [Launch R/W Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readwrite.json)
 
 ## How to conclude the onboarding
 From the Stack output copy the Role ARN:
