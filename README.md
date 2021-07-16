@@ -14,8 +14,7 @@ You would need to give as a parameter the External ID that you can obtain in the
 ![AWS External ID](/zimages/aws-external-id.jpg)
 
 ## How to launch the template
-Either copy the JSON file and then uploaded it to a newly created stack or launch the CloudFormation Templates directly.     
-These are the link to launch them in your AWS Account directly.     
+Either copy the JSON file and then uploaded it to a newly created stack or launch the CloudFormation Templates directly. These are the link to launch them in your AWS Account directly.     
 
 Use these links if your __CloudGuard Tenant is instanced in Europe__:    
 1. Template with Read-Only Permission: [Launch R/O Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readonly-eu.json)
