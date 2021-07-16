@@ -47,6 +47,7 @@
                 "apigateway:GET",
                 "athena:GetQueryExecution",
                 "athena:GetWorkGroup",
+                "backup:ListBackupVaults",
                 "cognito-identity:DescribeIdentityPool",
                 "cognito-idp:DescribeUserPool",
                 "cognito-idp:DescribeRiskConfiguration",
