@@ -17,12 +17,12 @@ You would need to give as a parameter the External ID that you can obtain in the
 Either copy the JSON file and then uploaded it to a newly created stack or launch the CloudFormation Templates directly. These are the link to launch them in your AWS Account directly.     
 
 Use these links if your __CloudGuard Tenant is instanced in Europe__:    
-1. Template with Read-Only Permission: [Launch R/O Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readonly-eu.json)
-2. Template with Read-Write Permission: [Launch R/W Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readwrite-eu.json)
+1. Template with Read-Only Permission: [Launch R/O Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?stackName=cloudguard-cspm-onboarding&templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readonly-eu.json)
+2. Template with Read-Write Permission: [Launch R/W Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?stackName=cloudguard-cspm-onboarding&templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readwrite-eu.json)
      
 Use these links if your __CloudGuard Tenant is instanced in the United States__:
-1. Template with Read-Only Permission: [Launch R/O Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readonly.json)
-2. Template with Read-Write Permission: [Launch R/W Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readwrite.json)
+1. Template with Read-Only Permission: [Launch R/O Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?stackName=cloudguard-cspm-onboarding&templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readonly.json)
+2. Template with Read-Write Permission: [Launch R/W Stack](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?stackName=cloudguard-cspm-onboarding&templateURL=https://cspm-onboarding.s3.amazonaws.com/cft-readwrite.json)
 
 ## How to conclude the onboarding
 From the Stack output copy the Role ARN:
