@@ -62,6 +62,8 @@
                 "eks:DescribeFargateProfile",
                 "glue:GetConnections",
                 "glue:GetSecurityConfigurations",
+                "inspector2:List*",
+                "inspector2:Read*",
                 "kafka:ListClusters",
                 "kinesis:List*",
                 "kinesis:Describe*",
