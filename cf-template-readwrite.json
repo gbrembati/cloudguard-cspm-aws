@@ -77,6 +77,8 @@
                 "network-firewall:DescribeFirewall",
                 "network-firewall:DescribeLoggingConfiguration",
                 "network-firewall:ListFirewalls",
+                "network-firewall:DescribeRuleGroup",
+                "network-firewall:DescribeFirewallPolicy",
                 "personalize:DescribeDatasetGroup",
                 "personalize:ListDatasetGroups",
                 "s3:List*",
