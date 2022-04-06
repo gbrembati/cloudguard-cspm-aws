@@ -73,6 +73,7 @@
                 "logs:Get*",
                 "logs:FilterLogEvents",
                 "logs:ListLogDeliveries",
+                "macie2:DescribeBuckets",
                 "mq:DescribeBroker",
                 "mq:ListBrokers",
                 "network-firewall:DescribeFirewall",
