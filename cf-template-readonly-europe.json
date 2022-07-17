@@ -75,6 +75,7 @@
                 "logs:ListLogDeliveries",
                 "macie2:DescribeBuckets",
                 "macie2:GetMacieSession",
+                "macie2:GetFindingStatistics",
                 "mq:DescribeBroker",
                 "mq:ListBrokers",
                 "network-firewall:DescribeFirewall",
