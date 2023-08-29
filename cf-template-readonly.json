@@ -44,6 +44,8 @@
             {
               "Sid": "CloudGuardReadOnly",
               "Action": [
+                "ram:GetResourceShares",
+                "appflow:ListConnectors",
                 "account:GetAlternateContact",
                 "apigateway:GET",
                 "athena:GetQueryExecution",
@@ -130,7 +132,15 @@
                 "aps:DescribeLoggingConfiguration",
                 "cloudformation:ListTypes",
                 "cloudformation:DescribeType",
-                "cloudformation:BatchDescribeTypeConfigurations"
+                "cloudformation:BatchDescribeTypeConfigurations",
+                "amplify:ListApps",
+                "serverlessrepo:GetApplication",
+                "simspaceweaver:ListSimulations",
+                "simspaceweaver:ListTagsForResource",
+                "simspaceweaver:DescribeSimulation",
+                "grafana:DescribeWorkspace",
+                "mediapackage:ListChannels",
+                "mediapackage:ListHarvestJobs"
               ],
               "Effect": "Allow",
               "Resource": "*"
