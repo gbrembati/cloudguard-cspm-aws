@@ -93,6 +93,8 @@
                 "logs:Get*",
                 "logs:FilterLogEvents",
                 "logs:ListLogDeliveries",
+                "codebuild:ListBuilds",
+                "codebuild:BatchGetBuilds",
                 "memorydb:DescribeACLs",
                 "memorydb:DescribeParameters",
                 "memorydb:DescribeSnapshots",
@@ -129,6 +131,7 @@
                 "eks:DescribeFargateProfile",
                 "ecr:GetRegistryScanningConfiguration",
                 "ecr:DescribeRegistry",
+                "appstream:DescribeUsageReportSubscriptions",
                 "aps:ListWorkspaces",
                 "aps:DescribeWorkspace",
                 "aps:DescribeLoggingConfiguration",
@@ -151,6 +154,11 @@
                 "dataexchange:ListTagsForResource",
                 "dataexchange:ListEventActions",
                 "dataexchange:ListJobs",
+                "elastictranscoder:ListPresets",
+                "medialive:ListInputs",
+                "medialive:ListMultiplexes",
+                "medialive:ListReservations",
+                "medialive:ListInputSecurityGroups",
                 "drs:DescribeJobs",
                 "drs:DescribeJobLogItems",
                 "drs:DescribeSourceServers",
@@ -168,7 +176,8 @@
                 "signer:ListTagsForResource",
                 "signer:ListSigningJobs",
                 "signer:ListSigningPlatforms",
-                "signer:ListSigningProfiles"
+                "signer:ListSigningProfiles",
+                "storagegateway:DescribeSMBFileShares"
               ],
               "Effect": "Allow",
               "Resource": "*"
