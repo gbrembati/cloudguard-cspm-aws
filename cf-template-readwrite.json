@@ -44,8 +44,11 @@
             {
               "Sid": "CloudGuardReadOnly",
               "Action": [
-                "batch:ListSchedulingPolicies",
-                "batch:DescribeSchedulingPolicies",
+                "lightsail:GetRelationalDatabases",
+                "lightsail:GetRelationalDatabaseParameters",
+                "lightsail:GetLoadBalancerTlsCertificates",
+                "lightsail:GetDomains",
+                "lightsail:GetDistributions",
                 "batch:DescribeJobQueues",
                 "kinesisanalytics:ListTagsForResource",
                 "ram:GetResourceShares",
@@ -192,7 +195,8 @@
                 "signer:ListSigningPlatforms",
                 "signer:ListSigningProfiles",
                 "storagegateway:DescribeSMBFileShares",
-                "nimble:ListStudios"
+                "nimble:ListStudios",
+                "ds:ListTagsForResource"
               ],
               "Effect": "Allow",
               "Resource": "*"
