@@ -44,6 +44,9 @@
             {
               "Sid": "CloudGuardReadOnly",
               "Action": [
+                "appfabric:ListAppBundles",
+                "appfabric:GetAppBundle",
+                "appfabric:ListTagsForResource",
                 "lightsail:GetRelationalDatabases",
                 "lightsail:GetRelationalDatabaseParameters",
                 "lightsail:GetLoadBalancerTlsCertificates",
@@ -79,6 +82,8 @@
                 "elasticfilesystem:Describe*",
                 "elasticache:ListTagsForResource",
                 "es:ListTags",
+                "cloudhsm:DescribeClusters",
+                "cloudhsm:DescribeBackups",
                 "eks:DescribeNodegroup",
                 "eks:ListNodegroups",
                 "glacier:ListTagsForVault",
@@ -198,7 +203,10 @@
                 "nimble:ListStudios",
                 "ds:ListTagsForResource",
                 "support:DescribeCases",
-                "support:DescribeSeverityLevels"
+                "support:DescribeSeverityLevels",
+                "outposts:ListOutposts",
+                "waf-regional:ListLoggingConfigurations",
+                "wafv2:GetIPSet"
               ],
               "Effect": "Allow",
               "Resource": "*"
