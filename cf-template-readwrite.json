@@ -188,9 +188,27 @@
               "Resource": "*"
             },
             {
+              "Sid": "CloudGuardDeny",
+              "Effect": "Deny",
+              "Action": [
+                  "glacier:GetJobOutput",
+                  "s3:GetObjectTorrent",
+                  "dynamodb:BatchGet*",
+                  "dynamodb:PartiQLSelect",
+                  "dynamodb:Query",
+                  "dynamodb:Scan",
+                  "dynamodb:Get*",
+                  "qldb:GetBlock",
+                  "qldb:GetDigest",
+                  "qldb:GetRevision",
+                  "sdb:Select*"
+              ],
+              "Resource": "*"
+            },
+            {
               "Sid": "ElasticbeanstalkConfigurationSettingsPermission",
               "Action": [
-                "s3:GetObject"
+                  "s3:GetObject"
               ],
               "Effect": "Allow",
               "Resource": "arn:aws:s3:::elasticbeanstalk-env-resources-??*?/*"
@@ -212,21 +230,21 @@
           "Version": "2012-10-17",
           "Statement": [
             {
-              "Sid": "CloudGuardReadWrite",
+              "Sid": "CloudGuardWrite",
               "Action": [
-                "ec2:AuthorizeSecurityGroupEgress",
-                "ec2:AuthorizeSecurityGroupIngress",
-                "ec2:CreateSecurityGroup",
-                "ec2:DeleteSecurityGroup",
-                "ec2:RevokeSecurityGroupEgress",
-                "ec2:RevokeSecurityGroupIngress",
-                "ec2:ModifyNetworkInterfaceAttribute",
-                "ec2:CreateTags",
-                "ec2:DeleteTags"
+                  "ec2:AuthorizeSecurityGroupEgress",
+                  "ec2:AuthorizeSecurityGroupIngress",
+                  "ec2:CreateSecurityGroup",
+                  "ec2:DeleteSecurityGroup",
+                  "ec2:RevokeSecurityGroupEgress",
+                  "ec2:RevokeSecurityGroupIngress",
+                  "ec2:ModifyNetworkInterfaceAttribute",
+                  "ec2:CreateTags",
+                  "ec2:DeleteTags"
               ],
               "Effect": "Allow",
               "Resource": "*"
-            }
+          }
           ]
         }
       }
