@@ -177,12 +177,15 @@
                 "wafv2:GetIPSet",
                 "finspace:ListTagsForResource",
                 "lakeformation:GetDataLakeSettings",
+                "lakeformation:ListResources",
                 "sagemaker:DescribeTrainingJob",
                 "sagemaker:DescribeNotebookInstance",
                 "sagemaker:ListTrainingJobs",
                 "sagemaker:ListNotebookInstances",
                 "cognito-idp:ListResourcesForWebACL",
-                "apprunner:ListAssociatedServicesForWebAcl"
+                "apprunner:ListAssociatedServicesForWebAcl",
+                "ce:GetAnomalyMonitors",
+                "account:GetContactInformation"
             ],
               "Effect": "Allow",
               "Resource": "*"
@@ -204,7 +207,7 @@
                   "sdb:Select*"
               ],
               "Resource": "*"
-            },
+          },
             {
               "Sid": "ElasticbeanstalkConfigurationSettingsPermission",
               "Action": [
