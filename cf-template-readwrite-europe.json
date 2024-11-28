@@ -224,7 +224,15 @@
                 "m2:ListEnvironments",
                 "m2:GetEnvironment",
                 "m2:ListApplications",
-                "m2:GetApplication"
+                "m2:GetApplication",
+                "scn:ListInstances",
+                "scn:ListTagsForResource",
+                "support:DescribeTrustedAdvisorCheckResult",
+                "support:DescribeTrustedAdvisorChecks",
+                "textract:ListAdapters",
+                "textract:ListAdapterVersions",
+                "textract:GetAdapter",
+                "textract:GetAdapterVersion"
               ],
               "Effect": "Allow",
               "Resource": "*"
